@@ -8,6 +8,25 @@ body {
 	--toggle-radius: 0px;
 	--toggle-thumb-radius: 0px;
 	--slider-thumb-radius: 0px;
+	--font-interface-theme: Amarante, serif;
+	--font-text-override: "Faculty Glyphic", sans-serif;
+	--h1-font: Amarante, serif;
+	--nav-heading-color: #4d2305;
+	--text-normal: #4d2305;
+	--background-secondary: #f77707; 
+	--background-secondary-alt: #e336be; 
+	--interactive-normal: #e336be;
+	--font-interface-override: Amarante, serif;
+	--background-primary: #f5f2f0; 
+	--background-modifier-hover: #f77707;
+	--color-accent-hsl: #dbadd1;
+	--text-accent: #e336be;
+	--text-accent-hover: #f77707 
+	--background-modifier-border: #e336be;
+	--background-secondary-alt: #f5f0f5;
+	--titlebar-background: #f77707; 
+	--ribbon-background: #f77707;
+	--canvas-color: #f5f0f5;
 }
 
 .workspace-tab-header.is-active::before, .workspace-tab-header.is-active::after {
@@ -32,3 +51,9 @@ svg * {
 .menu-separator {
 	margin: var(--size-2-1) calc(var(--size-2-1) * -1);
 }
+*/
+@import url('https://fonts.googleapis.com/css2?family=Amarante&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap');
+
+:root{
